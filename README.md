@@ -7,7 +7,7 @@
 ---  
 ## ⏯️ INTRODUÇÃO  
 
-<p align='justify'>Neste laboratório do bootcamp <i>Azure Essencials</i>, foram abordadas questões referentes ao armazenamento no portal <a href='https://portal.azure.com/'><i>Microsoft Azure</i></a>. Através do projeto, foram exploradas as funcionalidades para criar blobs, filas,  </p>     
+<p align='justify'>Neste laboratório do bootcamp <i>Azure Essencials</i>, foram abordadas questões referentes ao armazenamento no portal <a href='https://portal.azure.com/'><i>Microsoft Azure</i></a>. Através do projeto, foram exploradas as funcionalidades para criar blobs, filas, tabelas. </p>     
 
 <p align="center">
   <img src='images/armazenamento-conta.png' width=450> 
