@@ -10,7 +10,7 @@
 <p align='justify'>Neste laboratório do bootcamp <i>Azure Essencials</i>, foram abordadas questões referentes ao armazenamento no portal <a href='https://portal.azure.com/'><i>Microsoft Azure</i></a>. Através do projeto, foram explorados conceitos sobre ... . </p>     
 
 <p align="center">
-  <img src='images/armazenamento-conta.png' width=550> 
+  <img src='images/armazenamento-conta.png' width=450> 
 </p>
 
 --- 
@@ -22,14 +22,15 @@
   <img src='images/armazenamento-conta-criada.png' width=550> 
 </p>
 
-<p align='justify'>- O desempenho Standard tem a cobrança somente pelo uso e o Premium cobra a alocação total, mesmo sem utilização, e utiliza discos mais performáticos, tem velocidade mais rápida.</p>    
+<p align='justify'>- O desempenho Standard tem a cobrança somente pelo uso e o Premium cobra a alocação total, mesmo sem utilização, e utiliza discos mais performáticos, tem velocidade mais rápida.</p> 
+
 <p align="center">
+   <img src='images/armazenamento-compartilhamento-arq.png' width=550>
 
 <p align='justify'>- Para conectar o recurso de Compartilhamento de Arquivos, é mais recomendado criar uma VM no Azure e executar o script fornecido pelo Azure no Power Shell, utilizando o protocolo SMB e a porta TCP 445.</p>      
 
-<p align="center">
-  <img src='images/armazenamento-compartilhamento-arq.png' style="display: inline-block; width: 45%;">
-  <img src='images/armazenamento-compart-arq-script.png' style="display: inline-block; width: 45%;">
+<p align="center">  
+  <img src='images/armazenamento-compart-arq-script.png' width=550>
 </p>
 
 <p align='justify'>- As filas podem ser criadas para usar com aplicações, como fila de mensagens, tem o termo 'queue' na sua URL.</p>    
@@ -46,20 +47,20 @@
   <img src='images/armazenamento-table-criada.png' width=550>
 </p>
 
-<p align='justify'>- Em Migrações para Azure, akguns recursos podem ser disponibilizados como VERSÃO PRÉVIA (por estar ainda em desenvolvimento, não é indicado o uso por não ter SLA garantido, não é ressarcido o prejuízo do cliente caso o serviço caia.</p>    
+<p align='justify'>- Em Migrações para Azure, akguns recursos podem ser disponibilizados como VERSÃO PRÉVIA e, por estar ainda em desenvolvimento, não é indicado o uso por não ter SLA garantido, não é ressarcido o prejuízo do cliente caso o serviço caia.</p>    
 
 <p align="center">
   <img src='images/armazenamento-migracoes.png' width=550> 
 </p>
 
-<p align='justify'>- Na contratação do serviço Data Box, é importante ter noção da quantidade d edados que é atribuído a cada modelo de solução (Disk, Box, Heavy, Import/Export Job).</p>    
+<p align='justify'>- Na contratação do serviço Data Box, é importante ter noção da quantidade de dados que é atribuído a cada modelo de solução (Disk, Box, Heavy, Import/Export Job).</p>    
 
 <p align="center">
   <img src='images/armazenamento-databox.png' style="display: inline-block; width: 45%;">
   <img src='images/armazenamento-databox-capcidades.png' style="display: inline-block; width: 45%;">
 </p>
 
-<p align='justify'>- O uso do recurso AzCopy requer uma conta de armazenamento e a criação de um Token de Acesso Compartilhado (token SAS) para fazer a transferência de dados via CMD (linha de comando). O AzCopy é mais prático, embora não seja agradável visualmente, e pode ser usado também o Storage Microsoft Explorer. Se o volume de dados for muio grande, cabe usar os produtos da família Data Box. </p>    
+<p align='justify'>- O uso do recurso AzCopy requer uma conta de armazenamento e a criação de um Token de Acesso Compartilhado (token SAS) para fazer a transferência de dados via CMD (linha de comando). O AzCopy é mais prático, embora não seja agradável visualmente. Pode ser usado também o <i>Storage Microsoft Explorer</i>. Se o volume de dados for muito grande, cabe usar os produtos da família Data Box. </p>    
 
 <p align="center">
  <img src='images/armazenamento-azcopy-token.png' width=550>  
